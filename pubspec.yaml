@@ -1,0 +1,32 @@
+# pubspec.yaml - Xcode 16.2 Compatible Firebase Versions
+name: phoenician_ios_app
+description: "Firebase iOS Compatible App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # 🔥 XCODE 16.2 COMPATIBLE FIREBASE VERSIONS
+  firebase_core: ^2.27.0          # Latest stable
+  firebase_auth: ^4.17.8          # Latest stable  
+  cloud_firestore: ^4.17.3        # Latest stable
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+# 🔧 FORCE COMPATIBLE VERSIONS
+dependency_overrides:
+  firebase_core_platform_interface: ^5.0.0
+  cloud_firestore_platform_interface: ^6.0.0  

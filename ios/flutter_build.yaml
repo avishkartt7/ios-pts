@@ -1,0 +1,16 @@
+# flutter_build.yaml - Force remove debug flags
+targets:
+  ios:
+    flags:
+      - "--no-enable-asserts"
+      - "--dart-define=FLUTTER_WEB_USE_SKIA=true"
+    build-modes:
+      debug:
+        optimization: none
+        debug-info: none
+      profile:
+        optimization: speed
+        debug-info: none
+      release:
+        optimization: speed
+        debug-info: none
