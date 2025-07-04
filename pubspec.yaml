@@ -14,9 +14,9 @@ dependencies:
   cupertino_icons: ^1.0.6
 
   # 🔥 XCODE 16.2 COMPATIBLE FIREBASE VERSIONS
-  firebase_core: ^2.27.0          # Latest stable
-  firebase_auth: ^4.17.8          # Latest stable  
-  cloud_firestore: ^4.17.3        # Latest stable
+  firebase_core: ^3.15.1          # Latest stable
+  firebase_auth: ^5.6.2         # Latest stable  
+  cloud_firestore: ^5.6.11       # Latest stable
 
 dev_dependencies:
   flutter_test:
